@@ -1,0 +1,28 @@
+package homework;
+
+public class TrainingmanagementSystem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("Deadlift");
+		System.out.println();
+		
+		for (int deadlift=20; deadlift<=140; deadlift+=20) {
+					 System.out.print(deadlift + "kg ");
+		}
+			
+	
+		System.out.println();
+		System.out.println("Squat");
+		for (int squat=20; squat<=100; squat+=20) {			
+			System.out.print(squat + "kg ");
+		}
+		System.out.println();
+		System.out.println("Benchpress");
+		for (int benchpress=20; benchpress<=70; benchpress+=10) {
+			System.out.print(benchpress + "kg ");
+		}
+	}
+}
+
+//웨이트 트레이닝 중 제가 수행할 수 있는 무게들을 적는 프로그램입니다
