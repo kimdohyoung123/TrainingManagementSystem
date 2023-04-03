@@ -1,0 +1,14 @@
+package pratice;
+
+import java.util.*;
+
+public class Kgconverterlbm {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		double num = input.nextDouble();
+		double a = num/0.453592;
+		System.out.println(a + "lbm");
+	}
+}
